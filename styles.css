@@ -1,0 +1,81 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.card {
+    width: 50vh;
+    text-align: center;
+    padding: 60px 50px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    /*Glass effect*/
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.card h1 {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.social-media-list {
+    padding: 30px 0;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.social-media img {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 0%;
+}
+
+.social-media span {
+    display: block;
+    font-size: 12px;
+    color: rgb(250, 244, 244);
+}
+
+.share-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #333;
+    border-radius: 100px;
+}
+
+.share-btn span {
+    transition: all 0.3;
+}
+
+.share-btn:hover span {
+    margin-left: 10px;
+}
